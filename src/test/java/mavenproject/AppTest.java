@@ -16,11 +16,11 @@ class ClacTest
         int result = Clac.add(a, b);
         Assertions.assertEquals(a + b, result);
     }
-////    @Test
-////    public void testSubtract() throws InterruptedException {
-////        int a = 1;
-////        int b = 2;
-////        int result = Clac.subtract(a, b);
-////        Assert.assertEquals(a - b, result);
-//    }
+    @Test
+    public void testSubtract() throws InterruptedException {
+        int a = 1;
+        int b = 2;
+        int result = Clac.subtract(a, b);
+        Assertions.assertEquals(a - b, result);
+    }
 }
